@@ -2,8 +2,56 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/warning_popup"
     android:layout_width="350dp"
-    android:layout_height="700dp">
+    android:layout_height="350dp"
+    android:background="@null"
+    android:src="@drawable/spring_green"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="SpeakableTextPresentCheck"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="warning!"
+        android:textColor="@color/dark_green"
+        app:layout_constraintBottom_toBottomOf="@+id/warning_popup"
+        app:layout_constraintEnd_toEndOf="@+id/warning_popup"
+        app:layout_constraintStart_toStartOf="@+id/warning_popup"
+        app:layout_constraintTop_toTopOf="@+id/warning_popup"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="your meal exceeds the average daily carbon footprint."
+        app:layout_constraintBottom_toBottomOf="@+id/warning_popup"
+        app:layout_constraintEnd_toEndOf="@+id/warning_popup"
+        app:layout_constraintStart_toStartOf="@+id/warning_popup"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="try exchanging some for more locally sourced, non-processed foods!"
+        app:layout_constraintBottom_toBottomOf="@+id/warning_popup"
+        app:layout_constraintEnd_toEndOf="@+id/warning_popup"
+        app:layout_constraintStart_toStartOf="@+id/warning_popup"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        app:layout_constraintVertical_bias="0.05" />
 
     <ImageView
         android:id="@+id/cancel2"
@@ -11,5 +59,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

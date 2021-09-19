@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tabs">
+    tools:context=".Tabs"
+    android:background="@color/dark_green"
+    >
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -15,7 +17,12 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/dark_green"
+            app:tabIndicatorColor="@color/spring_green"
+            app:tabSelectedTextColor="@color/spring_green"
+            app:tabTextColor="@color/forest_green"
+            />
 
     </com.google.android.material.appbar.AppBarLayout>
 
