@@ -142,6 +142,7 @@ public class Total extends Fragment {
                     });
 
                 }
+                String.format("%.3g%n", totalVal); //rounding
                 textView2.setText(String.valueOf(totalVal));
                 Log.e("arr", String.valueOf(totalVal));
 
@@ -172,4 +173,5 @@ public class Total extends Fragment {
         //totalItemArrayList.add(data1.toString(),data2,data3,);
         return rootview;
     }
+
 }
