@@ -1,4 +1,4 @@
-package com.example.hackathon;
+package com.example.carbonfoodprint;
 
 import androidx.appcompat.app.AppCompatActivity;
 
