@@ -13,7 +13,7 @@
         android:layout_height="580dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="150dp"
-        android:padding="15dp"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +33,13 @@
                 >
 
                 <TextView
-                    android:padding="15dp"
+                    android:padding="8dp"
                     android:layout_weight="3"
                     android:text="food"
                     />
 
                 <TextView
-                    android:padding="15dp"
+                    android:padding="8dp"
                     android:layout_weight="1"
                     android:text="12345"
                     android:gravity="center_vertical|end"
@@ -56,12 +56,12 @@
                 >
 
                 <TextView
-                    android:padding="15dp"
+                    android:padding="8dp"
                     android:layout_weight="3"
                     android:text="foodfoodfood" />
 
                 <TextView
-                    android:padding="15dp"
+                    android:padding="8dp"
                     android:layout_weight="1"
                     android:text="12345"
                     android:background="@color/mint_green"
